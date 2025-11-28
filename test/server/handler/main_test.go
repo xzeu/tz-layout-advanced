@@ -4,19 +4,20 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/gavv/httpexpect/v2"
-	"github.com/gin-gonic/gin"
-	"github.com/xzeu/tz-layout-advanced/config"
-	"github.com/xzeu/tz-layout-advanced/internal/handler"
-	"github.com/xzeu/tz-layout-advanced/internal/middleware"
-	jwt2 "github.com/xzeu/tz-layout-advanced/pkg/jwt"
-	"github.com/xzeu/tz-layout-advanced/pkg/log"
 	"net/http"
 	"net/http/httptest"
 	"os"
 	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/gavv/httpexpect/v2"
+	"github.com/gin-gonic/gin"
+	"github.com/xzeu/tz-layout-advanced/internal/handler"
+	"github.com/xzeu/tz-layout-advanced/internal/middleware"
+	"github.com/xzeu/tz-layout-advanced/pkg/config"
+	jwt2 "github.com/xzeu/tz-layout-advanced/pkg/jwt"
+	"github.com/xzeu/tz-layout-advanced/pkg/log"
 )
 
 var (
