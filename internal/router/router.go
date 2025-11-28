@@ -1,10 +1,10 @@
 package router
 
 import (
-	"github.com/go-nunu/nunu-layout-advanced/internal/handler"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/jwt"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
 	"github.com/spf13/viper"
+	"github.com/xzeu/tz-layout-advanced/internal/handler"
+	"github.com/xzeu/tz-layout-advanced/pkg/jwt"
+	"github.com/xzeu/tz-layout-advanced/pkg/log"
 )
 
 type RouterDeps struct {

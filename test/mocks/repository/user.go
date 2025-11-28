@@ -8,7 +8,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	model "github.com/go-nunu/nunu-layout-advanced/internal/model"
+	model "github.com/xzeu/tz-layout-advanced/internal/model"
 	gomock "github.com/golang/mock/gomock"
 )
 

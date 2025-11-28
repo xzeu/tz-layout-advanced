@@ -2,13 +2,13 @@ package server
 
 import (
 	"github.com/gin-gonic/gin"
-	apiV1 "github.com/go-nunu/nunu-layout-advanced/api/v1"
-	"github.com/go-nunu/nunu-layout-advanced/docs"
-	"github.com/go-nunu/nunu-layout-advanced/internal/middleware"
-	"github.com/go-nunu/nunu-layout-advanced/internal/router"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/server/http"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
+	apiV1 "github.com/xzeu/tz-layout-advanced/api/v1"
+	"github.com/xzeu/tz-layout-advanced/docs"
+	"github.com/xzeu/tz-layout-advanced/internal/middleware"
+	"github.com/xzeu/tz-layout-advanced/internal/router"
+	"github.com/xzeu/tz-layout-advanced/pkg/server/http"
 )
 
 func NewHTTPServer(

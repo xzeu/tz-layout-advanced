@@ -5,19 +5,20 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	v1 "github.com/go-nunu/nunu-layout-advanced/api/v1"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/jwt"
-	"github.com/go-nunu/nunu-layout-advanced/test/mocks/repository"
 	"os"
 	"testing"
 
-	"github.com/go-nunu/nunu-layout-advanced/internal/model"
-	"github.com/go-nunu/nunu-layout-advanced/internal/service"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/config"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/sid"
+	v1 "github.com/xzeu/tz-layout-advanced/api/v1"
+	"github.com/xzeu/tz-layout-advanced/pkg/jwt"
+	"github.com/xzeu/tz-layout-advanced/test/mocks/repository"
+
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
+	"github.com/xzeu/tz-layout-advanced/internal/model"
+	"github.com/xzeu/tz-layout-advanced/internal/service"
+	"github.com/xzeu/tz-layout-advanced/pkg/config"
+	"github.com/xzeu/tz-layout-advanced/pkg/log"
+	"github.com/xzeu/tz-layout-advanced/pkg/sid"
 	"golang.org/x/crypto/bcrypt"
 )
 

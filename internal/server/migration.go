@@ -2,11 +2,12 @@ package server
 
 import (
 	"context"
-	"github.com/go-nunu/nunu-layout-advanced/internal/model"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+	"os"
+
+	"github.com/xzeu/tz-layout-advanced/internal/model"
+	"github.com/xzeu/tz-layout-advanced/pkg/log"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
-	"os"
 )
 
 type MigrateServer struct {

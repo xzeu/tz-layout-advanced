@@ -3,9 +3,10 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/go-nunu/nunu-layout-advanced/cmd/task/wire"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/config"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+
+	"github.com/xzeu/tz-layout-advanced/cmd/task/wire"
+	"github.com/xzeu/tz-layout-advanced/pkg/config"
+	"github.com/xzeu/tz-layout-advanced/pkg/log"
 )
 
 func main() {

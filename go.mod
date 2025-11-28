@@ -1,6 +1,6 @@
-module github.com/go-nunu/nunu-layout-advanced
+module github.com/xzeu/tz-layout-advanced
 
-go 1.23.10
+go 1.24.0
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
@@ -9,6 +9,7 @@ require (
 	github.com/gin-gonic/gin v1.10.1
 	github.com/glebarez/sqlite v1.11.0
 	github.com/go-co-op/gocron v1.37.0
+	github.com/go-nunu/nunu-layout-advanced v0.0.0-20250827234350-4171bd66ccc2
 	github.com/golang-jwt/jwt/v5 v5.2.2
 	github.com/golang/mock v1.6.0
 	github.com/google/wire v0.6.0
@@ -21,7 +22,7 @@ require (
 	github.com/swaggo/swag v1.16.4
 	go.mongodb.org/mongo-driver v1.17.4
 	go.uber.org/zap v1.27.0
-	golang.org/x/crypto v0.39.0
+	golang.org/x/crypto v0.45.0
 	google.golang.org/grpc v1.73.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gorm.io/driver/mysql v1.6.0
@@ -59,14 +60,13 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.20.0 // indirect
 	github.com/go-sql-driver/mysql v1.8.1 // indirect
-	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
+	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
-	github.com/hpcloud/tail v1.0.0 // indirect
 	github.com/imkira/go-interpol v1.1.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
@@ -116,15 +116,13 @@ require (
 	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/arch v0.8.0 // indirect
 	golang.org/x/exp v0.0.0-20221208152030-732eee02a75a // indirect
-	golang.org/x/net v0.40.0 // indirect
-	golang.org/x/sync v0.15.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.26.0 // indirect
-	golang.org/x/tools v0.33.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250324211829-b45e905df463 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
-	gopkg.in/fsnotify.v1 v1.4.7 // indirect
-	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	modernc.org/libc v1.22.5 // indirect

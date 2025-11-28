@@ -1,12 +1,13 @@
 package middleware
 
 import (
+	"net/http"
+
 	"github.com/gin-gonic/gin"
 	"github.com/go-nunu/nunu-layout-advanced/api/v1"
 	"github.com/go-nunu/nunu-layout-advanced/pkg/jwt"
 	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
 	"go.uber.org/zap"
-	"net/http"
 )
 
 func StrictAuth(j *jwt.JWT, logger *log.Logger) gin.HandlerFunc {

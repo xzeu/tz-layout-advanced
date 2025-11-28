@@ -2,7 +2,7 @@ package job
 
 import (
 	"context"
-	"github.com/go-nunu/nunu-layout-advanced/internal/repository"
+	"github.com/xzeu/tz-layout-advanced/internal/repository"
 	"time"
 )
 
