@@ -1,12 +1,13 @@
 package handler
 
 import (
-	v1 "github.com/go-nunu/nunu-layout-advanced/api/v1"
-	"github.com/go-nunu/nunu-layout-advanced/internal/handler"
-	"github.com/go-nunu/nunu-layout-advanced/internal/middleware"
-	"github.com/go-nunu/nunu-layout-advanced/test/mocks/service"
 	"net/http"
 	"testing"
+
+	v1 "github.com/xzeu/tz-layout-advanced/api/v1"
+	"github.com/xzeu/tz-layout-advanced/internal/handler"
+	"github.com/xzeu/tz-layout-advanced/internal/middleware"
+	"github.com/xzeu/tz-layout-advanced/test/mocks/service"
 
 	"github.com/golang/mock/gomock"
 )

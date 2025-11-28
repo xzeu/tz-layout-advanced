@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"flag"
+
 	"github.com/xzeu/tz-layout-advanced/cmd/migration/wire"
 	"github.com/xzeu/tz-layout-advanced/pkg/config"
 	"github.com/xzeu/tz-layout-advanced/pkg/log"

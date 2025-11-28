@@ -8,7 +8,7 @@ import (
 	"github.com/duke-git/lancet/v2/cryptor"
 	"github.com/duke-git/lancet/v2/random"
 	"github.com/gin-gonic/gin"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+	"github.com/xzeu/tz-layout-advanced/pkg/log"
 	"go.uber.org/zap"
 )
 
